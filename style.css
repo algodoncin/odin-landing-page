@@ -35,11 +35,17 @@ ul, li{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-left: 225px;
+}
+
+.container .links{
+    margin-right: 225px;
 }
 
 .container .links ul{
     list-style: none;
-    display: flex;;
+    display: flex;
+    gap: 15px;
 }
 
 .container .links ul li{
