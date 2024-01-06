@@ -7,6 +7,15 @@
     font-family: roboto;
 }
 
+span {
+    display: block;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -16,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 225px 30px 225px;
+    /* padding: 30px 225px 30px 225px; */
     background-color: #1f2937;
     color: white;
     height: 50px;
@@ -29,13 +38,11 @@
 }
 
 .container .links ul{
-    padding: 20px;
     list-style: none;
     display: flex;;
 }
 
 .container .links ul li{
-    margin: 15px;
     font-size: 18px;
     color: #e5e7eb;
 }
