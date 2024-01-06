@@ -1,10 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: roboto;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 225px 30px 225px;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+}
+
+.container .header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.container .links ul{
+    padding: 20px;
+    list-style: none;
+    display: flex;;
+}
+
+.container .links ul li{
+    margin: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
