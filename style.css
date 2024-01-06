@@ -25,10 +25,9 @@ ul, li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 30px 225px 30px 225px; */
-    background-color: #1f2937;
+    background-color: #1F2937;
     color: white;
-    height: 50px;
+    height: 75px;
 }
 
 .container .header .logo{
@@ -38,17 +37,63 @@ ul, li{
     margin-left: 225px;
 }
 
-.container .links{
+.container .header .links{
     margin-right: 225px;
 }
 
-.container .links ul{
+.container .header .links ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
-.container .links ul li{
+.container .header .links ul li{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.container .hero{
+    height: 425px;
+    background-color: #1F2937;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+}
+
+.container .hero .hero-content{
+    margin-left: 225px;
+}
+
+.container .hero .hero-content .hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.container .hero .hero-content .hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container .hero .hero-content .hero-button{
+    background-color: #3882F6;
+    padding: 8px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+}
+
+.container .hero .hero-img{
+    width: 800px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #6D747D;
+    margin-right: 225px;
 }
