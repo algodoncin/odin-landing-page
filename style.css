@@ -21,6 +21,8 @@ ul, li{
     flex-direction: column;
 }
 
+/* Header */
+
 .container .header {
     display: flex;
     justify-content: space-between;
@@ -52,31 +54,32 @@ ul, li{
     color: #e5e7eb;
 }
 
-.container .hero{
-    height: 425px;
+/* Hero */
+
+.container .content .hero{
+    height: 500px;
     background-color: #1F2937;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 40px;
 }
 
-.container .hero .hero-content{
+.container .content .hero .hero-content{
     margin-left: 225px;
 }
 
-.container .hero .hero-content .hero-title{
+.container .content .hero .hero-content .hero-title{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.container .hero .hero-content .hero-text{
+.container .content .hero .hero-content .hero-text{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.container .hero .hero-content .hero-button{
+.container .content .hero .hero-content .hero-button{
     background-color: #3882F6;
     padding: 8px 40px;
     border-radius: 10px;
@@ -87,7 +90,7 @@ ul, li{
     margin-top: 10px;
 }
 
-.container .hero .hero-img{
+.container .content .hero .hero-img{
     width: 800px;
     height: 250px;
     display: flex;
@@ -96,4 +99,54 @@ ul, li{
     color: white;
     background-color: #6D747D;
     margin-right: 225px;
+}
+
+/* Info */
+
+.container .content .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    gap: 20px;
+}
+
+.container .content .info span{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;  
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.container .content .info .info-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-grow: 2;
+}
+
+.container .content .info .info-item{
+    width: 150px;
+}
+
+.container .content .info .info-list .info-item .info-img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3B82F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container .content .info .info-list .info-item .info-desc{
+   text-align: center;
+   color: #4C5664;
+}
+
+/* Quote */
+
+.container .content .quote{
+    height: 500px;
+    background-color: #E5E7EB;
 }
