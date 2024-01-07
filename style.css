@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 span {
@@ -123,7 +121,7 @@ ul, li{
 .container .content .info .info-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
     flex-grow: 2;
 }
 
@@ -148,5 +146,25 @@ ul, li{
 
 .container .content .quote{
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+}
+
+.container .content .quote .quote-content{
+    width: 850px;
+}
+
+.container .content .quote .quote-content .text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.container .content .quote .quote-content .author{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: right;
 }
