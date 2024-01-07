@@ -216,3 +216,14 @@ ul, li{
     padding-right: 30px;
     border-radius: 5px;
 }
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+}
