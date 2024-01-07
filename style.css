@@ -108,7 +108,6 @@ ul, li{
     align-items: center;
     flex-direction: column;
     height: 500px;
-    gap: 20px;
 }
 
 .container .content .info span{
@@ -118,6 +117,8 @@ ul, li{
     flex-grow: 1;
     display: flex;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .container .content .info .info-list{
@@ -155,7 +156,7 @@ ul, li{
 }
 
 .container .content .quote .quote-content{
-    width: 850px;
+    width: 800px;
 }
 
 .container .content .quote .quote-content .text{
@@ -169,4 +170,49 @@ ul, li{
     font-size: 22px;
     font-weight: bolder;
     text-align: right;
+}
+
+/* AD */
+
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.ad .ad-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    display: flex;
+    padding: 60px 150px 60px 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+
+.ad .ad-content .ad-info {
+    color: white;
+}
+
+.ad .ad-content .ad-info .ad-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ad .ad-content .ad-info .ad-text{
+    font-weight: 100;
+}
+
+.ad .ad-content .ad-button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
 }
