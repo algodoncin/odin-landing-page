@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -33,7 +35,7 @@ ul, li{
 .container .header .logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: 225px;
 }
 
@@ -68,7 +70,7 @@ ul, li{
 
 .container .content .hero .hero-content .hero-title{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
